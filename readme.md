@@ -33,6 +33,8 @@ docker run --rm -it -v ${PWD}:/tmp registry.sxi.com.ph/sxi-testproject2:2.3.4-10
 
 ## changelog
 
+* registry.sxi.com.ph/sxi-testproject2:2.3.5-989 = testproject-agent 2.3.5, 20s, uid 989, ability to pass directory instead of zip file
+* registry.sxi.com.ph/sxi-testproject2:2.3.5-0 = testproject-agent 2.3.5, 20s, uid 0, ability to pass directory instead of zip file
 * registry.sxi.com.ph/sxi-testproject2:2.3.4-0 = testproject-agent 2.3.4, 20s, uid 0
 * registry.sxi.com.ph/sxi-testproject2:2.3.4-1000 = testproject-agent 2.3.4, changed to 10s from 20s, uid 1000
 * registry.sxi.com.ph/sxi-testproject2:2.6 = testproject-agent 2.3.4, changed to 10s from 30s
