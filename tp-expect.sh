@@ -1,7 +1,7 @@
 #!/usr/bin/expect -f
 match_max 1000000
 set timeout -1
-spawn ./sxi/TestProject_Agent_2.3.4.sh 
+spawn ./sxi/TestProject_Agent_2.3.5.sh 
 expect "User License Agreement must be accepted, press any key to read it."
 send -- "y"
 send -- "\r"
